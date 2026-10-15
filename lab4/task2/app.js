@@ -3,7 +3,7 @@ const sum = (...args) => {
 	for(const el of args){
 		res += el;
 	}
-	return res
+	return res;
 }
 
 console.log(sum(1, 3, 5));

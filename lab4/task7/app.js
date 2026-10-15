@@ -11,6 +11,6 @@ const ages = (obj) => {
 		res[person] = obj[person].died - obj[person].born;
 	};
 	return res
-}
+};
 
-console.log(ages(persons))
+console.log(ages(persons));
